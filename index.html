@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/libs/animate.min.css?_v=20230219220458" />
+  <link rel="stylesheet" href="css/libs/swiper.min.css?_v=20230219220458" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230219220458" />
+  <title>Главная</title>
+</head>
+
+<body>
+  <!-- Header -->
+<header class="header">
+    <div class="header__container container">
+        <!-- Logo -->
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+
+        <!-- Menu List -->
+        <ul class="header__navbar-list">
+            <li class="header__navbar-list-item">
+                <a href="#" class="header__navbar-list-link">
+                    HOME
+                </a>
+            </li>
+            <li class="header__navbar-list-item">
+                <a href="#" class="header__navbar-list-link">
+                    ABOUT US
+                </a>
+            </li>
+            <li class="header__navbar-list-item">
+                <a href="#" class="header__navbar-list-link">
+                    SERVICES
+                </a>
+            </li>
+            <li class="header__navbar-list-item">
+                <a href="#" class="header__navbar-list-link">
+                    PAGE
+                </a>
+            </li>
+            <li class="header__navbar-list-item">
+                <a href="#" class="header__navbar-list-link">
+                    BLOG
+                </a>
+            </li>
+            <li class="header__navbar-list-item">
+                <a href="#" class="header__navbar-list-link">
+                    CONTACT US
+                </a>
+            </li>
+        </ul>
+
+        <!-- Toolbar -->
+        <div class="header__navbar-toolbar">
+            <!-- Link to Call -->
+            <a href="#" class="header__navbar-phone">
+                <img src="images/icons/phone.svg" alt="">
+                <p>(+62) 81 314 239</p>
+            </a>
+            <!-- Open Menu -->
+            <button id="navbar-menu-open" class="header__navbar-open-menu">
+                <img src="images/icons/burger-middle.svg" alt="">
+            </button>
+            <!-- Language -->
+            <a href="#" class="header__navbar-language">
+                <img src="images/icons/usa.png" alt="">
+            </a>
+        </div>
+
+        <!-- Open mobile menu -->
+        <button id="mobile-menu-open"  class="header__navbar-open-mobile-menu">
+            <img src="images/icons/burger.svg" alt="">
+        </button>
+    </div>
+</header>
+
+
+  
+
+
+  <div id="navbar-menu" class="navbar__menu-overlay overlay">
+    <div class="navbar__menu">
+        <!-- CLose -->
+        <button id="navbar-menu-close" class="navbar__menu-close">
+            <img src="images/icons/close.svg" alt="">
+        </button>
+        <!-- Logo -->
+        <a href="#" class="navbar__menu-logo">
+            <img src="images/logo-2.png" alt="">
+        </a>
+
+        <!-- Description -->
+        <p class="navbar__menu-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit quam harum nihil mollitia similique omnis hic
+            illo architecto necessitatibus totam facere, obcaecati veritatis temporibus sit cum sunt dolorum asperiores
+            optio?
+        </p>
+
+        <!-- Locations -->
+        <h4 class="navbar__menu-location-title">Our Location</h4>
+        <ul class="navbar__menu-location">
+            <li>
+                <a href="#" class="navbar__menu-location-link">
+                    <img src="images/icons/phone.svg" alt="">
+                    <p>Jalan Sunset Road No. 20, Kuta - Bali</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navbar__menu-location-link">
+                    <img src="images/icons/phone.svg" alt="">
+                    <p>Jalan Sunset Road No. 20, Kuta - Bali</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navbar__menu-location-link">
+                    <img src="images/icons/phone.svg" alt="">
+                    <p>Jalan Sunset Road No. 20, Kuta - Bali</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navbar__menu-location-link">
+                    <img src="images/icons/phone.svg" alt="">
+                    <p>Jalan Sunset Road No. 20, Kuta - Bali</p>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Socials -->
+        <ul class="navbar__menu-socials">
+            <li>
+                <a href="#" class="navbar__menu-socials-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" fill="white"/>
+                        </svg>
+                        
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navbar__menu-socials-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navbar__menu-socials-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navbar__menu-socials-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Copyright -->
+        <p class="navbar__menu-copyright">
+            Copyright © investmoon 2021. All rights reserved.
+        </p>
+    </div>
+</div>
+  <main>
+    <section class="intro">
+    <div class="container">
+        <div class="intro__content">
+            <!-- Top title -->
+            <p class="intro__toptitle wow fadeInLeftBig">
+                Increase Your Assets
+            </p>
+            <!-- Title -->
+            <h1 class="intro__title wow fadeInRightBig">
+                Investment For The <br> Future And To The Moon
+            </h1>
+            <!-- Description -->
+            <p class="intro__description wow fadeInLeftBig">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+
+            <div class="intro__btns wow fadeInLeftBig">
+                <!-- Link -->
+                <a id="popup-open" href="#" class="btn">GET STARTED</a>
+                <!-- Link -->
+                <a href="#" class="btn-arrow">
+                    <p>Learn more</p>
+                    <img src="images/icons/arrow-right.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="services">
+    <div class="container">
+        <!-- Section Header title -->
+        <div class="section__header wow fadeInLeft">
+            <!-- TopTitle -->
+            <p class="section__header-toptitle">Our Services Plan</p>
+            <!-- Title -->
+            <h2 class="section__header-title">
+                Choose The Plan That's Right For You
+            </h2>
+            <!-- Desc -->
+            <p class="section__header-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            </p>
+        </div>
+        <!-- Services -->
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 wow fadeInRightBig">
+                <div class="service">
+                    <!-- Image -->
+                    <img src="images/icons/trading.svg" alt="" class="service__img">
+                    <!-- Title -->
+                    <h3 class="service__title">Wealth Management</h3>
+                    <!-- Desc -->
+                    <p class="service__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 wow fadeInRightBig">
+                <div class="service">
+                    <!-- Image -->
+                    <img src="images/icons/analytics.svg" alt="" class="service__img">
+                    <!-- Title -->
+                    <h3 class="service__title">Wealth Management</h3>
+                    <!-- Desc -->
+                    <p class="service__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 wow fadeInRightBig">
+                <div class="service">
+                    <!-- Image -->
+                    <img src="images/icons/mountains.svg" alt="" class="service__img">
+                    <!-- Title -->
+                    <h3 class="service__title">Wealth Management</h3>
+                    <!-- Desc -->
+                    <p class="service__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 wow fadeInLeftBig">
+                <div class="service">
+                    <!-- Image -->
+                    <img src="images/icons/it.svg" alt="" class="service__img">
+                    <!-- Title -->
+                    <h3 class="service__title">Wealth Management</h3>
+                    <!-- Desc -->
+                    <p class="service__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 wow fadeInLeftBig">
+                <div class="service">
+                    <!-- Image -->
+                    <img src="images/icons/btc.svg" alt="" class="service__img">
+                    <!-- Title -->
+                    <h3 class="service__title">Wealth Management</h3>
+                    <!-- Desc -->
+                    <p class="service__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 wow fadeInLeftBig">
+                <div class="service">
+                    <!-- Image -->
+                    <img src="images/icons/invest.svg" alt="" class="service__img">
+                    <!-- Title -->
+                    <h3 class="service__title">Wealth Management</h3>
+                    <!-- Desc -->
+                    <p class="service__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="analytics" class="analytics">
+    <div class="container">
+        <div class="row wow fadeInUp">
+            <div class="col-xl-3 col-6">
+                <div class="analytic">
+                    <!-- Image -->
+                    <img src="images/icons/users.svg" alt="" class="analytic__img">
+                    <!-- Number -->
+                    <p class="analytic__value">
+                        <span data-count="1470"></span>
+                        <span class="plus">+</span>
+                    </p>
+                    <!-- Text -->
+                    <p class="analytic__text">Happy Clients</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-6">
+                <div class="analytic">
+                    <!-- Image -->
+                    <img src="images/icons/contract.svg" alt="" class="analytic__img">
+                    <!-- Number -->
+                    <p class="analytic__value">
+                        <span data-count="436"></span>
+                        <span class="plus">+</span>
+                    </p>
+                    <!-- Text -->
+                    <p class="analytic__text">Happy Clients</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-6">
+                <div class="analytic">
+                    <!-- Image -->
+                    <img src="images/icons/award.svg" alt="" class="analytic__img">
+                    <!-- Number -->
+                    <p class="analytic__value">
+                        <span data-count="10"></span>
+                        <span class="plus">+</span>
+                    </p>
+                    <!-- Text -->
+                    <p class="analytic__text">Happy Clients</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-6">
+                <div class="analytic">
+                    <!-- Image -->
+                    <img src="images/icons/team.svg" alt="" class="analytic__img">
+                    <!-- Number -->
+                    <p class="analytic__value">
+                        <span data-count="37"></span>
+                        <span class="plus">+</span>
+                    </p>
+                    <!-- Text -->
+                    <p class="analytic__text">Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 wow fadeInLeftBig">
+                <div class="about__content">
+                    <!-- Top Title -->
+                    <p class="about__toptitle">Welcome To Investmoon</p>
+                    <!-- Title -->
+                    <h2 class="about__title">
+                        We Are Finance & investment Manager Since 1996
+                    </h2>
+                    <!-- Desc -->
+                    <p class="about__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                    <!-- List of advantages -->
+                    <ul class="about__adv">
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                        <li>
+                            <img src="images/icons/check.svg" alt="">
+                            <p>Professional team</p>
+                        </li>
+                    </ul>
+                    <!-- Link -->
+                    <a href="#" class="about__link btn">about us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="advantages">
+    <div class="container">
+        <!-- Advantages -->
+        <div class="row advantages__row">
+            <div class="col-lg-4 wow fadeInUpBig">
+                <div class="advantage">
+                    <!-- Img -->
+                    <svg class="advantage__img" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 3.75C19.2187 3.75 18.4425 4.0125 17.7737 4.4925L15.7037 5.9375L13.3187 6.25H13.28L13.2412 6.28875C12.459 6.46539 11.7429 6.86011 11.1759 7.42714C10.6089 7.99417 10.2141 8.71029 10.0375 9.4925L9.99999 9.53125V9.57L9.68749 11.9925L8.24249 13.8675L8.20249 13.9062V13.945C7.32874 15.3413 7.28999 17.1438 8.24249 18.4763L9.72624 20.5463L10.1175 22.6962L6.09374 28.8275L4.80499 30.7425H10.7812L12.2262 34.1013L13.125 36.25L14.4137 34.2963L18.3587 28.3588C19.4187 28.7938 20.615 28.8338 21.6412 28.3588L25.5862 34.2963L26.875 36.25L27.7737 34.1013L29.2187 30.7425H35.195L33.9062 28.8275L30 22.8912L30.3125 20.5475L31.7575 18.4775L31.7975 18.4388V18.4C32.6712 17.0038 32.71 15.24 31.7575 13.9075L30.3125 11.8362L29.8437 9.4925H29.8825C29.8775 9.4625 29.8487 9.4425 29.8437 9.41375C29.6187 7.77875 28.325 6.45125 26.68 6.25H26.64L24.2962 5.9375L22.2262 4.4925C21.5797 4.0189 20.8013 3.75929 20 3.75ZM20 6.28875C20.2875 6.28875 20.5712 6.37625 20.7812 6.52375L23.0075 8.125L23.2812 8.32L23.5937 8.36L26.3287 8.75H26.3662C26.9287 8.8125 27.3187 9.20375 27.3825 9.76625V9.84375L27.8912 12.6175L27.9287 12.8912L28.125 13.125L29.7262 15.3513C30.025 15.7663 30.0637 16.47 29.6875 17.07L27.93 19.5312L27.89 19.8438L27.5 22.5787V22.6163C27.4792 22.8116 27.4124 22.9992 27.305 23.1638L27.2262 23.2037V23.2413C27.0405 23.4644 26.774 23.605 26.485 23.6325H26.4062L23.555 24.1412L23.2425 24.1788L23.0075 24.375L20.7812 25.9763C20.3662 26.275 19.6237 26.3137 19.0237 25.9375L16.9925 24.375L16.7575 24.18L16.4062 24.14L13.6712 23.75H13.6337C13.457 23.7344 13.2866 23.6765 13.1369 23.5812C12.9872 23.4859 12.8627 23.356 12.7737 23.2025C12.6907 23.0583 12.6375 22.8989 12.6175 22.7338V22.6562L12.11 19.805L12.07 19.4925L11.875 19.2575L10.2737 17.0312C9.97499 16.6163 9.93624 15.8737 10.3125 15.2737L11.875 13.2425L12.07 13.0075L12.1087 12.6562L12.4612 10.0388C12.4662 10.02 12.495 10.02 12.5 10C12.5779 9.69909 12.7349 9.42451 12.9547 9.20472C13.1745 8.98493 13.4491 8.82793 13.75 8.75C13.77 8.745 13.77 8.71625 13.7887 8.71125L16.4062 8.35875L16.7187 8.32125L16.9925 8.125L19.2187 6.52375C19.4287 6.3775 19.7125 6.28875 20 6.28875ZM28.6325 25.3125L30.5475 28.2425H27.5375L27.225 29.0237L26.3662 31.015L23.71 26.9525L24.295 26.5237L26.7575 26.0938V26.1325C26.7862 26.1275 26.805 26.0988 26.835 26.0938C27.4929 25.9988 28.1145 25.729 28.6325 25.3125ZM11.3675 25.3513C11.9103 25.8447 12.5922 26.1586 13.32 26.25H13.3587L15.7425 26.5625L16.2887 26.9925L13.6325 31.015L12.7737 29.0237L12.4612 28.2425H9.45374L11.3675 25.3513Z"
+                            fill="white" />
+                    </svg>
+
+                    <!-- Title -->
+                    <h4 class="advantage__title">Certified Investment</h4>
+                    <!-- Desc -->
+                    <p class="advantage__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUpBig">
+                <div class="advantage">
+                    <!-- Img -->
+                    <svg class="advantage__img" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24.59 16.6667C26.2 16.6667 27.5066 17.9733 27.5066 19.5833V27.4983C27.5066 29.4879 26.7163 31.396 25.3095 32.8028C23.9026 34.2096 21.9945 35 20.005 35C18.0154 35 16.1073 34.2096 14.7005 32.8028C13.2937 31.396 12.5033 29.4879 12.5033 27.4983V19.5833C12.5033 17.9733 13.8083 16.6667 15.42 16.6667H24.59ZM24.59 19.1667H15.42C15.3095 19.1667 15.2035 19.2106 15.1254 19.2887C15.0472 19.3668 15.0033 19.4728 15.0033 19.5833V27.4983C15.0033 28.8249 15.5303 30.097 16.4683 31.035C17.4063 31.973 18.6785 32.5 20.005 32.5C21.3315 32.5 22.6037 31.973 23.5417 31.035C24.4797 30.097 25.0066 28.8249 25.0066 27.4983V19.5833C25.0066 19.4728 24.9627 19.3668 24.8846 19.2887C24.8065 19.2106 24.7005 19.1667 24.59 19.1667ZM6.24998 16.6667H11.885C11.297 17.3768 10.9379 18.2484 10.855 19.1667H6.24998C6.13947 19.1667 6.03349 19.2106 5.95535 19.2887C5.87721 19.3668 5.83331 19.4728 5.83331 19.5833V24.9983C5.83321 25.6281 5.97582 26.2498 6.25043 26.8166C6.52505 27.3833 6.92453 27.8805 7.41887 28.2708C7.9132 28.661 8.48954 28.9342 9.10459 29.0697C9.71964 29.2052 10.3574 29.1996 10.97 29.0533C11.1116 29.8933 11.37 30.695 11.725 31.44C10.7371 31.7043 9.7017 31.7378 8.6988 31.538C7.69591 31.3382 6.75239 30.9105 5.94122 30.2878C5.13006 29.6651 4.47296 28.8642 4.02075 27.947C3.56854 27.0298 3.33333 26.0209 3.33331 24.9983V19.5833C3.33331 17.9733 4.63998 16.6667 6.24998 16.6667ZM28.125 16.6667H33.75C35.36 16.6667 36.6666 17.9733 36.6666 19.5833V25C36.6669 26.0219 36.4322 27.0303 35.9806 27.947C35.5291 28.8638 34.8728 29.6645 34.0626 30.2873C33.2523 30.91 32.3097 31.3382 31.3076 31.5386C30.3055 31.7391 29.2708 31.7065 28.2833 31.4433C28.64 30.6967 28.8983 29.895 29.0416 29.055C29.6535 29.1996 30.2901 29.2039 30.9038 29.0675C31.5174 28.9311 32.0923 28.6577 32.5853 28.2676C33.0784 27.8775 33.4767 27.3809 33.7506 26.8151C34.0244 26.2492 34.1667 25.6287 34.1666 25V19.5833C34.1666 19.4728 34.1227 19.3668 34.0446 19.2887C33.9665 19.2106 33.8605 19.1667 33.75 19.1667H29.155C29.0721 18.2484 28.713 17.3768 28.125 16.6667ZM20 5C21.3261 5 22.5978 5.52678 23.5355 6.46447C24.4732 7.40215 25 8.67392 25 10C25 11.3261 24.4732 12.5979 23.5355 13.5355C22.5978 14.4732 21.3261 15 20 15C18.6739 15 17.4021 14.4732 16.4644 13.5355C15.5268 12.5979 15 11.3261 15 10C15 8.67392 15.5268 7.40215 16.4644 6.46447C17.4021 5.52678 18.6739 5 20 5ZM30.8333 6.66667C31.9384 6.66667 32.9982 7.10565 33.7796 7.88706C34.561 8.66846 35 9.72826 35 10.8333C35 11.9384 34.561 12.9982 33.7796 13.7796C32.9982 14.561 31.9384 15 30.8333 15C29.7282 15 28.6684 14.561 27.887 13.7796C27.1056 12.9982 26.6666 11.9384 26.6666 10.8333C26.6666 9.72826 27.1056 8.66846 27.887 7.88706C28.6684 7.10565 29.7282 6.66667 30.8333 6.66667ZM9.16665 6.66667C10.2717 6.66667 11.3315 7.10565 12.1129 7.88706C12.8943 8.66846 13.3333 9.72826 13.3333 10.8333C13.3333 11.9384 12.8943 12.9982 12.1129 13.7796C11.3315 14.561 10.2717 15 9.16665 15C8.06158 15 7.00177 14.561 6.22037 13.7796C5.43897 12.9982 4.99998 11.9384 4.99998 10.8333C4.99998 9.72826 5.43897 8.66846 6.22037 7.88706C7.00177 7.10565 8.06158 6.66667 9.16665 6.66667ZM20 7.5C19.3369 7.5 18.7011 7.76339 18.2322 8.23223C17.7634 8.70107 17.5 9.33696 17.5 10C17.5 10.663 17.7634 11.2989 18.2322 11.7678C18.7011 12.2366 19.3369 12.5 20 12.5C20.663 12.5 21.2989 12.2366 21.7677 11.7678C22.2366 11.2989 22.5 10.663 22.5 10C22.5 9.33696 22.2366 8.70107 21.7677 8.23223C21.2989 7.76339 20.663 7.5 20 7.5ZM30.8333 9.16667C30.3913 9.16667 29.9674 9.34226 29.6548 9.65482C29.3422 9.96738 29.1666 10.3913 29.1666 10.8333C29.1666 11.2754 29.3422 11.6993 29.6548 12.0118C29.9674 12.3244 30.3913 12.5 30.8333 12.5C31.2753 12.5 31.6993 12.3244 32.0118 12.0118C32.3244 11.6993 32.5 11.2754 32.5 10.8333C32.5 10.3913 32.3244 9.96738 32.0118 9.65482C31.6993 9.34226 31.2753 9.16667 30.8333 9.16667ZM9.16665 9.16667C8.72462 9.16667 8.3007 9.34226 7.98814 9.65482C7.67557 9.96738 7.49998 10.3913 7.49998 10.8333C7.49998 11.2754 7.67557 11.6993 7.98814 12.0118C8.3007 12.3244 8.72462 12.5 9.16665 12.5C9.60867 12.5 10.0326 12.3244 10.3452 12.0118C10.6577 11.6993 10.8333 11.2754 10.8333 10.8333C10.8333 10.3913 10.6577 9.96738 10.3452 9.65482C10.0326 9.34226 9.60867 9.16667 9.16665 9.16667Z"
+                            fill="white" />
+                    </svg>
+
+                    <!-- Title -->
+                    <h4 class="advantage__title">Certified Investment</h4>
+                    <!-- Desc -->
+                    <p class="advantage__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUpBig">
+                <div class="advantage">
+                    <!-- Img -->
+                    <svg class="advantage__img" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24.59 16.6667C26.2 16.6667 27.5066 17.9733 27.5066 19.5833V27.4983C27.5066 29.4879 26.7163 31.396 25.3095 32.8028C23.9026 34.2096 21.9945 35 20.005 35C18.0154 35 16.1073 34.2096 14.7005 32.8028C13.2937 31.396 12.5033 29.4879 12.5033 27.4983V19.5833C12.5033 17.9733 13.8083 16.6667 15.42 16.6667H24.59ZM24.59 19.1667H15.42C15.3095 19.1667 15.2035 19.2106 15.1254 19.2887C15.0472 19.3668 15.0033 19.4728 15.0033 19.5833V27.4983C15.0033 28.8249 15.5303 30.097 16.4683 31.035C17.4063 31.973 18.6785 32.5 20.005 32.5C21.3315 32.5 22.6037 31.973 23.5417 31.035C24.4797 30.097 25.0066 28.8249 25.0066 27.4983V19.5833C25.0066 19.4728 24.9627 19.3668 24.8846 19.2887C24.8065 19.2106 24.7005 19.1667 24.59 19.1667ZM6.24998 16.6667H11.885C11.297 17.3768 10.9379 18.2484 10.855 19.1667H6.24998C6.13947 19.1667 6.03349 19.2106 5.95535 19.2887C5.87721 19.3668 5.83331 19.4728 5.83331 19.5833V24.9983C5.83321 25.6281 5.97582 26.2498 6.25043 26.8166C6.52505 27.3833 6.92453 27.8805 7.41887 28.2708C7.9132 28.661 8.48954 28.9342 9.10459 29.0697C9.71964 29.2052 10.3574 29.1996 10.97 29.0533C11.1116 29.8933 11.37 30.695 11.725 31.44C10.7371 31.7043 9.7017 31.7378 8.6988 31.538C7.69591 31.3382 6.75239 30.9105 5.94122 30.2878C5.13006 29.6651 4.47296 28.8642 4.02075 27.947C3.56854 27.0298 3.33333 26.0209 3.33331 24.9983V19.5833C3.33331 17.9733 4.63998 16.6667 6.24998 16.6667ZM28.125 16.6667H33.75C35.36 16.6667 36.6666 17.9733 36.6666 19.5833V25C36.6669 26.0219 36.4322 27.0303 35.9806 27.947C35.5291 28.8638 34.8728 29.6645 34.0626 30.2873C33.2523 30.91 32.3097 31.3382 31.3076 31.5386C30.3055 31.7391 29.2708 31.7065 28.2833 31.4433C28.64 30.6967 28.8983 29.895 29.0416 29.055C29.6535 29.1996 30.2901 29.2039 30.9038 29.0675C31.5174 28.9311 32.0923 28.6577 32.5853 28.2676C33.0784 27.8775 33.4767 27.3809 33.7506 26.8151C34.0244 26.2492 34.1667 25.6287 34.1666 25V19.5833C34.1666 19.4728 34.1227 19.3668 34.0446 19.2887C33.9665 19.2106 33.8605 19.1667 33.75 19.1667H29.155C29.0721 18.2484 28.713 17.3768 28.125 16.6667ZM20 5C21.3261 5 22.5978 5.52678 23.5355 6.46447C24.4732 7.40215 25 8.67392 25 10C25 11.3261 24.4732 12.5979 23.5355 13.5355C22.5978 14.4732 21.3261 15 20 15C18.6739 15 17.4021 14.4732 16.4644 13.5355C15.5268 12.5979 15 11.3261 15 10C15 8.67392 15.5268 7.40215 16.4644 6.46447C17.4021 5.52678 18.6739 5 20 5ZM30.8333 6.66667C31.9384 6.66667 32.9982 7.10565 33.7796 7.88706C34.561 8.66846 35 9.72826 35 10.8333C35 11.9384 34.561 12.9982 33.7796 13.7796C32.9982 14.561 31.9384 15 30.8333 15C29.7282 15 28.6684 14.561 27.887 13.7796C27.1056 12.9982 26.6666 11.9384 26.6666 10.8333C26.6666 9.72826 27.1056 8.66846 27.887 7.88706C28.6684 7.10565 29.7282 6.66667 30.8333 6.66667ZM9.16665 6.66667C10.2717 6.66667 11.3315 7.10565 12.1129 7.88706C12.8943 8.66846 13.3333 9.72826 13.3333 10.8333C13.3333 11.9384 12.8943 12.9982 12.1129 13.7796C11.3315 14.561 10.2717 15 9.16665 15C8.06158 15 7.00177 14.561 6.22037 13.7796C5.43897 12.9982 4.99998 11.9384 4.99998 10.8333C4.99998 9.72826 5.43897 8.66846 6.22037 7.88706C7.00177 7.10565 8.06158 6.66667 9.16665 6.66667ZM20 7.5C19.3369 7.5 18.7011 7.76339 18.2322 8.23223C17.7634 8.70107 17.5 9.33696 17.5 10C17.5 10.663 17.7634 11.2989 18.2322 11.7678C18.7011 12.2366 19.3369 12.5 20 12.5C20.663 12.5 21.2989 12.2366 21.7677 11.7678C22.2366 11.2989 22.5 10.663 22.5 10C22.5 9.33696 22.2366 8.70107 21.7677 8.23223C21.2989 7.76339 20.663 7.5 20 7.5ZM30.8333 9.16667C30.3913 9.16667 29.9674 9.34226 29.6548 9.65482C29.3422 9.96738 29.1666 10.3913 29.1666 10.8333C29.1666 11.2754 29.3422 11.6993 29.6548 12.0118C29.9674 12.3244 30.3913 12.5 30.8333 12.5C31.2753 12.5 31.6993 12.3244 32.0118 12.0118C32.3244 11.6993 32.5 11.2754 32.5 10.8333C32.5 10.3913 32.3244 9.96738 32.0118 9.65482C31.6993 9.34226 31.2753 9.16667 30.8333 9.16667ZM9.16665 9.16667C8.72462 9.16667 8.3007 9.34226 7.98814 9.65482C7.67557 9.96738 7.49998 10.3913 7.49998 10.8333C7.49998 11.2754 7.67557 11.6993 7.98814 12.0118C8.3007 12.3244 8.72462 12.5 9.16665 12.5C9.60867 12.5 10.0326 12.3244 10.3452 12.0118C10.6577 11.6993 10.8333 11.2754 10.8333 10.8333C10.8333 10.3913 10.6577 9.96738 10.3452 9.65482C10.0326 9.34226 9.60867 9.16667 9.16665 9.16667Z"
+                            fill="white" />
+                    </svg>
+
+                    <!-- Title -->
+                    <h4 class="advantage__title">Certified Investment</h4>
+                    <!-- Desc -->
+                    <p class="advantage__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Brands -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+    <section class="team">
+    <div class="container">
+        <!-- Section Header title -->
+        <div class="section__header wow fadeInLeft">
+            <!-- TopTitle -->
+            <p class="section__header-toptitle">Our Team</p>
+            <!-- Title -->
+            <h2 class="section__header-title">
+                Meet Our Expert Team
+            </h2>
+            <!-- Desc -->
+            <p class="section__header-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+            </p>
+        </div>
+        <!-- Team -->
+        <div class="row wow">
+            <div class="col-xl-4 wow fadeInLeftBig">
+                <div class="team__member">
+                    <!-- Image -->
+                    <img src="images/member-1.jpg" alt="" class="team__member-img">
+
+                    <!-- Info -->
+                    <div class="team__member-info">
+                        <!-- Members name -->
+                        <h4 class="team__member-name">James P. Morrison</h4>
+                        <!-- Members specialisation -->
+                        <p class="team__member-spec">
+                            Chairman and CEO
+                        </p>
+                        <!-- Socials -->
+                        <ul class="team__member-socials">
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 wow fadeInUpBig">
+                <div class="team__member">
+                    <!-- Image -->
+                    <img src="images/member-1.jpg" alt="" class="team__member-img">
+
+                    <!-- Info -->
+                    <div class="team__member-info">
+                        <!-- Members name -->
+                        <h4 class="team__member-name">James P. Morrison</h4>
+                        <!-- Members specialisation -->
+                        <p class="team__member-spec">
+                            Chairman and CEO
+                        </p>
+                        <!-- Socials -->
+                        <ul class="team__member-socials">
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 wow fadeInRightBig">
+                <div class="team__member">
+                    <!-- Image -->
+                    <img src="images/member-1.jpg" alt="" class="team__member-img">
+
+                    <!-- Info -->
+                    <div class="team__member-info">
+                        <!-- Members name -->
+                        <h4 class="team__member-name">James P. Morrison</h4>
+                        <!-- Members specialisation -->
+                        <p class="team__member-spec">
+                            Chairman and CEO
+                        </p>
+                        <!-- Socials -->
+                        <ul class="team__member-socials">
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Link view all -->
+        <a href="#" class="team__view">
+            <p>See more</p>
+            <img src="images/icons/arrow-right.svg" alt="">
+        </a>
+    </div>
+</section>
+    <section class="feedback">
+    <div class="container">
+        <!-- Section Header title -->
+        <div class="section__header">
+            <!-- Title -->
+            <h2 class="section__header-title">
+                Choose The Plan <span>+1200</span> That's Right For You
+            </h2>
+        </div>
+
+        <!-- Clients -->
+        <div class="row clients__row">
+            <div class="col-xl-2">
+                <div class="feedback__client">
+                    <img src="images/brand.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2">
+                <div class="feedback__client">
+                    <img src="images/brand.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2">
+                <div class="feedback__client">
+                    <img src="images/brand.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2">
+                <div class="feedback__client">
+                    <img src="images/brand.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2">
+                <div class="feedback__client">
+                    <img src="images/brand.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Map -->
+        <div class="feedback__map">
+            <img src="images/map.png" alt="" class="feedback__map-img">
+
+            <ul class="feedback__map-list">
+                <li class="feedback__map-country-1">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+                <li class="feedback__map-country-2">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+                <li class="feedback__map-country-3">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+                <li class="feedback__map-country-4">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+                <li class="feedback__map-country-5">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+                <li class="feedback__map-country-6">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+                <li class="feedback__map-country-7">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+                <li class="feedback__map-country-8">
+                    <div class="feedback__map-country-content">
+                        <img src="images/icons/icon-2.png" alt="">
+                        <p>Serve you to reach best profits and goals.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <section class="experts">
+    <div class="container">
+        <div class="row experts__header">
+            <div class="col-xl-6 wow fadeInLeftBig">
+                <!-- Section Header title -->
+                <div class="section__header">
+                    <!-- TopTitle -->
+                    <p class="section__header-toptitle">Our Services Plan</p>
+                    <!-- Title -->
+                    <h2 class="section__header-title">
+                        Choose The Plan That's Right For You
+                    </h2>
+                    <!-- Desc -->
+                    <p class="section__header-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 right-text wow fadeInRightBig">
+                <a href="#" class="btn">contact us</a>
+            </div>
+        </div>
+
+        <!-- Adv -->
+        <div class="row adv">
+            <div class="col-lg-4 wow fadeInUpBig">
+                <div class="expert">
+                    <!-- Img -->
+                    <div class="expert__header"></div>
+                    <!-- Body -->
+                    <div class="expert__body">
+                        <h3 class="expert__title">
+                            Trusted by Investor
+                        </h3>
+                        <p class="expert__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <a href="#" class="expert__view">
+                            <p>See more</p>
+                            <svg class="img" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 12L8.6 10.55L12.15 7H0V5H12.15L8.6 1.45L10 0L16 6L10 12Z" fill="#117186" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUpBig">
+                <div class="expert">
+                    <!-- Img -->
+                    <div class="expert__header"></div>
+                    <!-- Body -->
+                    <div class="expert__body">
+                        <h3 class="expert__title">
+                            Trusted by Investor
+                        </h3>
+                        <p class="expert__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <a href="#" class="expert__view">
+                            <p>See more</p>
+                            <svg class="img" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 12L8.6 10.55L12.15 7H0V5H12.15L8.6 1.45L10 0L16 6L10 12Z" fill="#117186" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUpBig">
+                <div class="expert">
+                    <!-- Img -->
+                    <div class="expert__header"></div>
+                    <!-- Body -->
+                    <div class="expert__body">
+                        <h3 class="expert__title">
+                            Trusted by Investor
+                        </h3>
+                        <p class="expert__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <a href="#" class="expert__view">
+                            <p>See more</p>
+                            <svg class="img" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 12L8.6 10.55L12.15 7H0V5H12.15L8.6 1.45L10 0L16 6L10 12Z" fill="#117186" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faqs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 wow fadeInLeftBig">
+                <ul class="faqs__list">
+                    <li class="faqs__list-item active">
+                        <div class="faqs__list-item-header">
+                            First-class investment solutions
+                        </div>
+                        <div class="faqs__list-item-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa cum sociis natoque.
+                        </div>
+                    </li>
+                    <li class="faqs__list-item">
+                        <div class="faqs__list-item-header">
+                            First-class investment solutions
+                        </div>
+                        <div class="faqs__list-item-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa cum sociis natoque.
+                        </div>
+                    </li>
+                    <li class="faqs__list-item">
+                        <div class="faqs__list-item-header">
+                            First-class investment solutions
+                        </div>
+                        <div class="faqs__list-item-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa cum sociis natoque.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-5 faqs__content wow fadeInRightBig">
+                <!-- Section Header title -->
+                <div class="section__header">
+                    <!-- TopTitle -->
+                    <p class="section__header-toptitle">Our Services Plan</p>
+                    <!-- Title -->
+                    <h2 class="section__header-title">
+                        Choose The Plan That's Right For You
+                    </h2>
+                    <!-- Desc -->
+                    <p class="section__header-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                    </p>
+                    <!-- Btn -->
+                    <a href="#" class="btn">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  </main>
+  <section class="fotbottom__section wow fadeInDown">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3">
+                <div class="fotbottom">
+                    <div class="fotbottom__icon">
+                        <img src="images/icons/team.svg" alt="">
+                    </div>
+                    <div class="fotbottom__content">
+                        <p class="fotbottom__title">
+                            Call Us
+                        </p>
+                        <p class="fotbottom__bottom">
+                            (+62) 81 314 239
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="fotbottom">
+                    <div class="fotbottom__icon">
+                        <img src="images/icons/team.svg" alt="">
+                    </div>
+                    <div class="fotbottom__content">
+                        <p class="fotbottom__title">
+                            Call Us
+                        </p>
+                        <p class="fotbottom__bottom">
+                            (+62) 81 314 239
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="fotbottom">
+                    <div class="fotbottom__icon">
+                        <img src="images/icons/team.svg" alt="">
+                    </div>
+                    <div class="fotbottom__content">
+                        <p class="fotbottom__title">
+                            Call Us
+                        </p>
+                        <p class="fotbottom__bottom">
+                            (+62) 81 314 239
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="fotbottom">
+                    <div class="fotbottom__icon">
+                        <img src="images/icons/team.svg" alt="">
+                    </div>
+                    <div class="fotbottom__content">
+                        <p class="fotbottom__title">
+                            Call Us
+                        </p>
+                        <p class="fotbottom__bottom">
+                            (+62) 81 314 239
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top row">
+            <div class="col-xl-5">
+                <!-- First Logo -->
+                <div class="footer__info">
+                    <a href="#" class="footer__info-logo">
+                        <img src="images/logo-2.png" alt="">
+                    </a>
+                    <p class="footer__info-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Ut elit tellus, luctus nec ullamcorper <br>
+                        mattis, pulvinar dapibus leo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-xl-3">
+                <!-- Menu -->
+                <ul class="footer__menu">
+                    <h4 class="footer__menu-title">
+                        Quick Links
+                    </h4>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Home</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">About Us</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Services</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Pricing</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-3">
+                <!-- Menu -->
+                <ul class="footer__menu">
+                    <h4 class="footer__menu-title">
+                        Quick Links
+                    </h4>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Home</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">About Us</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Services</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Pricing</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>Finance & Investment Template Kit by Jegtheme</p>
+            <p>Copyright © investmoon 2021. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+  <div id="popup" class="popup__overlay">
+    <div class="popup">
+        <!-- CLose -->
+        <button id="popup-close" class="popup-close">
+            <img src="images/icons/close.svg" alt="">
+        </button>
+
+        <h3 class="popup__title">Form Contact Title</h3>
+
+        <form action="#">
+            <div class="form__control">
+                <label for="form-name">Name</label>
+                
+                <input id="form-name" type="text" placeholder="Name Surname">
+            </div>
+            <div class="form__control">
+                <label for="form-phone">Phone</label>
+                <input id="form-phone" type="text" placeholder="+988">
+            </div>
+            <div class="form__control">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+  <div id="mobile-menu" class="mobile__menu-overlay">
+    <div class="mobile__menu">
+        <!-- Header -->
+        <div class="mobile__menu-header">
+            <!-- Logo -->
+            <a href="#" class="mobile__menu-header-logo">
+                <img src="images/logo-2.png" alt="">
+            </a>
+            <!-- Close Btn -->
+            <button id="mobile-menu-close" class="mobile__menu-header-close">
+                <img src="images/icons/close.svg" alt="">
+            </button>
+        </div>
+        <!-- Body -->
+        <ul class="mobile__menu-list">
+            <li class="mobile__menu-list-item">
+                <a href="#" class="mobile__menu-list-link active">
+                    <p>HOME</p>
+                    <img src="images/icons/angle-bottom.svg" alt="">
+                </a>
+            </li>
+            <li class="mobile__menu-list-item active">
+                <a href="#" class="mobile__menu-list-link dropdown">
+                    <p>HOME</p>
+                    <img src="images/icons/angle-bottom.svg" alt="">
+                </a>
+
+                <ul class="mobile__menu-accardion">
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="mobile__menu-list-item">
+                <a href="#" class="mobile__menu-list-link dropdown">
+                    <p>HOME</p>
+                    <img src="images/icons/angle-bottom.svg" alt="">
+                </a>
+
+                <ul class="mobile__menu-accardion">
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                    <li class="mobile__menu-accardion-item">
+                        <a href="" class="mobile__menu-accardion-link">TEAM</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+  <script src="js/libs/swiper.js?_v=20230219220458"></script>
+  <script src="js/libs/wow.js?_v=20230219220458"></script>
+  <script src="js/app.min.js?_v=20230219220458"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
